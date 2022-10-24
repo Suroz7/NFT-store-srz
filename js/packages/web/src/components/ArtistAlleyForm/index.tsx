@@ -17,7 +17,7 @@ export const ArtistAlleyForm = () => {
     <div className="artist-alley-container">
       <div className={'title'}>
         {' '}
-        Submit your original artwork to be featured by Todd MacFarlane
+        Submit your original artwork 
       </div>
       <Form layout="vertical" onFinish={onFinish} className="artist-alley-form">
         <Form.Item name="name" label="Your Name">
